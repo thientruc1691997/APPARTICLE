@@ -27,7 +27,7 @@ public class ArticleData extends AsyncTask<String, String, String> {
     }
     public static Article getPhotoFromId(int id){
         for(int i=0;i<data.getArticles().size();i++)
-            if(data.getArticles().get(i).getArticle_id()==id)
+            if(data.getArticles().get(i).getArticleId()==id)
                 return data.getArticles().get(i);
         return null;
 

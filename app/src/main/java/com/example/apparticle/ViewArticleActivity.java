@@ -33,9 +33,9 @@ public class ViewArticleActivity extends AppCompatActivity {
 
             int id = (int) getIntent().getLongExtra("id", 0);
             //new DownloadImage(iv_detail).execute((getPhotoFromId(id, generatePhotoData()).getSource_photo()));
-            Picasso.get().load((ArticleData.getPhotoFromId(id).getArticle_image())).resize(400, 500).centerCrop().into(iv_detail);
-            tv_detail_title.setText((ArticleData.getPhotoFromId(id)).getArticle_title());
-            tv_detail_description.setText((ArticleData.getPhotoFromId(id)).getArticle_description());
+            Picasso.get().load((ArticleData.getPhotoFromId(id).getArticleImage())).resize(400, 500).centerCrop().into(iv_detail);
+            tv_detail_title.setText((ArticleData.getPhotoFromId(id)).getArticleTitle());
+            tv_detail_description.setText((ArticleData.getPhotoFromId(id)).getArticleDescription());
 
     }
 

@@ -33,7 +33,7 @@ public class ArticleAdapter extends BaseAdapter {
 
     @Override
     public long getItemId(int position) {
-        return article_list.get(position).getArticle_id();
+        return article_list.get(position).getArticleId();
     }
 
     @Override
@@ -50,8 +50,8 @@ public class ArticleAdapter extends BaseAdapter {
             dataitem = (MyView) convertView.getTag();
         }
         //new DownloadImage(dataitem.iv_photo).execute(photo_list.get(position).getSource_photo());
-            Picasso.get().load(article_list.get(position).getArticle_image()).resize(300, 400).centerCrop().into(dataitem.iv_photo);
-            dataitem.tv_caption.setText(article_list.get(position).getArticle_title());
+            Picasso.get().load(article_list.get(position).getArticleImage()).resize(300, 400).centerCrop().into(dataitem.iv_photo);
+            dataitem.tv_caption.setText(article_list.get(position).getArticleTitle());
         return convertView;
     }
 
