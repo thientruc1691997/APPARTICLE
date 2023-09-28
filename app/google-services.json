@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "684931669669",
+    "project_id": "photoapp-a9387",
+    "storage_bucket": "photoapp-a9387.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684931669669:android:be104b565ddd41691d774c",
+        "android_client_info": {
+          "package_name": "com.example.apparticle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxIM5kgvMd0b67gmfxRjIKb1K-8UMJLic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684931669669:android:8315790ea9d2db4a1d774c",
+        "android_client_info": {
+          "package_name": "thanhdnh.ueh.edu.photoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxIM5kgvMd0b67gmfxRjIKb1K-8UMJLic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
